@@ -71,8 +71,8 @@ public class E2E_Integration {
 
     public void test_update_request_put()
     {
-        token=getToken();
-        bookingId= getBookingId();
+        //token=getToken();
+        //bookingId= getBookingId();
          String put_payload="{\n" +
                  "    \"firstname\" : \"Biswa\",\n" +
                  "    \"lastname\" : \"RN\",\n" +
